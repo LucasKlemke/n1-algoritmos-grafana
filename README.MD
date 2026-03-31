@@ -318,8 +318,6 @@ npm start
 
 O script lê automaticamente todos os arrays em `data_arrays/`, executa os três algoritmos para cada tamanho e mantém o servidor de métricas no ar para o Prometheus coletar.
 
-> ⚠️ Não feche o terminal enquanto quiser visualizar os dados no Grafana.
-
 ### Acessando a observabilidade
 
 | Ferramenta | URL | Descrição |

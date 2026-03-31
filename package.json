@@ -1,0 +1,17 @@
+{
+  "name": "sort-algorithm",
+  "version": "1.0.0",
+  "description": "Algoritmos de ordenação com observabilidade via OpenTelemetry e Prometheus",
+  "main": "run_sorts.js",
+  "scripts": {
+    "start": "node run_sorts.js",
+    "generate": "node generator_array_csv.js"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.57.0",
+    "@opentelemetry/sdk-trace-base": "^1.30.0",
+    "@opentelemetry/sdk-trace-node": "^1.30.0",
+    "prom-client": "^15.1.3"
+  }
+}

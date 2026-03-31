@@ -1,9 +1,6 @@
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
+# Node.js
+node_modules/
 
-# Ambientes
-.venv/
-venv/
-env/
+# Logs
+*.log
+npm-debug.log*

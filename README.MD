@@ -77,8 +77,6 @@ A instrumentação foi feita no arquivo `run_sorts.js` utilizando:
 - Fim da execução com tempo, comparações e trocas
 - Erros e exceções com stack trace
 
-[![Log de execução](images/logs/log_code.png)](images/logs/log_code.png)
-
 ### Atributos dos spans
 
 Cada span registra: `algorithm`, `input.size`, `execution_time_s`, `comparacoes`, `trocas`.

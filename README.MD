@@ -8,6 +8,16 @@
 
 ---
 
+## Checklist de Entrega
+
+- [x] **1. Relatório técnico** — este arquivo (`README.md`) constitui o relatório técnico completo da atividade N1
+- [x] **2. Código-fonte** — disponível neste repositório: `sorts/bubble_sort/`, `sorts/insertion_sort/`, `sorts/merge_sort/`, `run_sorts.js`, `generator_array_csv.js`
+- [x] **3a. Prints dos dashboards** — [Tempo de execução](#61-array-1000-elementos), [Comparações](#62-array-5000-elementos) e [Trocas](#63-array-10000-elementos) disponíveis na [seção 6.5 — Visualização no Grafana](#65-visualização-no-grafana)
+- [x] **3b. Logs e métricas** — tabelas de resultados com tempo, comparações e trocas por algoritmo disponíveis nas [seções 6.1 a 6.4](#6-experimentos-e-resultados)
+- [x] **4. Ajuste do PDI** — [PDI_ATUALIZADO.md](PDI_ATUALIZADO.md) com reflexão N1 e atualização do status das metas
+
+---
+
 ## 1. Introdução
 
 Este relatório documenta a implementação de três algoritmos de ordenação, sua instrumentação com OpenTelemetry e Prometheus, a visualização dos dados no Grafana e a análise crítica dos resultados obtidos a partir de execuções reais com arrays de diferentes tamanhos.
